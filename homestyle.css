@@ -266,7 +266,7 @@ body{
 .our-story h1{
     margin-bottom: 1.5rem;
     font-family: "Cormorant Garamond", serif;
-    font-size: 250%;
+    font-size: clamp(1.5rem,4vw,3rem);
     font-weight: lighter;
 }
 
@@ -294,7 +294,7 @@ body{
 
 .our-story p{
     color: #eeebe8;
-    font-size: 100%;
+    font-size: clamp(1rem,1vw,1.1rem);
     line-height: 1.5;
     font-family: "Cormorant Garamond", serif;   
     font-weight: lighter;
