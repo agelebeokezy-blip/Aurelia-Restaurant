@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Bitcount+Grid+Double:wght@100..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Festive&family=Gabriela&family=Kings&family=Libre+Caslon+Display&family=Lora:ital,wght@0,400..700;1,400..700&family=Macondo+Swash+Caps&family=Manrope:wght@200..800&family=Mea+Culpa&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monsieur+La+Doulaise&family=Permanent+Marker&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -606,7 +610,7 @@ body{
 
 .menu-overlay{
     width: 100vw;
-    height: 75vh;
+    height: 65vh;
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -622,6 +626,7 @@ body{
     color: #E8C8A0;
     animation: head 2s;
     animation-timing-function: ease-in;
+    font-family: "Petit Formal Script", cursive;
 }
 
 .lunch-h1{
@@ -638,7 +643,7 @@ body{
 
 .menu-intro{
     width: 100vw;
-    height: 75vh;
+    height: 65vh;
     font-family: "Cinzel", serif;
 }
 
@@ -670,6 +675,7 @@ body{
     color: #E8C8A0;
     transition: 0.5s;
     cursor: pointer;
+    font-family: "Cinzel", serif;
 }
 
 .menu-intro-links span:hover{
@@ -787,3 +793,79 @@ body{
     color: black;
     transition: 0.5s;
 }
+
+/* About us page styling */
+
+.about-our-story{
+    padding-left: 10vw;
+    margin-top: 10rem;
+}
+
+.about-our-story h3{
+    padding-bottom: 2rem;
+    color: #E8C8A0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.about-our-story h1{
+    margin-bottom: 1.5rem;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+.about-our-story p{
+    color: #eeebe8;
+    font-size: 130%;
+    line-height: 1.5;
+    font-family: "Cormorant Garamond", serif;   
+    font-weight: lighter;
+    width: 50vw;
+}
+
+.about-legacy .about-h1{ 
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 200%;
+    font-weight: lighter;
+    padding-top: 5rem;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+}
+
+.about-legacy .about-h3{
+    justify-self: center;
+    padding-bottom: 0.5rem;
+    color: #E8C8A0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    text-align: left;
+    border-bottom: thin solid rgba(212, 185, 138, 0.3);
+    width: fit-content;
+    font-size: 100%;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+}
+
+/* background image styling */
+
+.review{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(images/arrangement-thanksgiving-day-delicious-dinner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin-top: 5rem;
+    background-attachment: fixed;
+}
+
+.review-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    height: 50vh;
+}
+
