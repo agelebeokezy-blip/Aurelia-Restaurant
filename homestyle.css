@@ -69,8 +69,8 @@ body{
     align-items: center;
     position: fixed;
     left: 0;
-    animation: head 2s;
-    animation-timing-function: linear;
+    animation: head 3.2s;
+    animation-timing-function:ease-in-out;
 }
 
 .navbar .name a{
@@ -91,8 +91,8 @@ body{
 .navbar ul{
     display: flex;
     gap: 2rem;
-    animation: head 2s;
-    animation-timing-function: linear;
+    animation: head 3.2s;
+    animation-timing-function:ease-in-out;
 }
 
 @keyframes head{
@@ -117,8 +117,8 @@ body{
     color: #E8C8A0;
     letter-spacing: 1.5px;
     border-radius: 5%;
-    padding: 10px;
-    font-size: 80%;
+    padding: 0.7vw;
+    font-size: 0.7vw;
     transition: 0.5s;
 }
 
@@ -126,7 +126,7 @@ body{
     color: black;
     transition: 0.5s;
     border-radius: 5%;
-    padding: 10px;
+    padding: 0.7vw;
     background: #D4B98A;
 }
 
@@ -138,8 +138,6 @@ body{
 
 .reservee{
     border: 1px solid #D4B98A;
-    border-radius: 5%;
-    padding: 10px;
     transition: 0.5s;
 }
 
@@ -165,12 +163,17 @@ body{
     font-size: 7vw;
     font-weight: lighter;
     color: #E8C8A0;
+    animation: head 2s;
+    animation-timing-function: ease-in;
 }
 
 .overlay h2{
     font-size: 1.5vw;
     font-weight: lighter;
     color: #E8C8A0;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+    padding-bottom: 2%;
 }
 
 .intro-links{
@@ -179,13 +182,14 @@ body{
     width: 50vw;
     justify-self: center;
     justify-content: center;
-    margin-top: 2%;
+    animation: head 2s;
+    animation-timing-function: ease-in;
 }
 
 .intro-links a{
     border: 1px solid #D4B98A;
     border-radius: 5%;
-    padding: 15px;
+    padding: 0.8rem;
     font-size: 1vw;
     font-weight: lighter;
     color: #E8C8A0;
@@ -205,7 +209,7 @@ body{
     font-size: 250%;
     color: white;
     border: 1px solid rgb(48, 139, 48);
-    padding: 2px;
+    padding: 0.2rem;
     background: rgb(48, 139, 48);
     border-radius: 50%;
     height: 50px;
@@ -283,7 +287,7 @@ body{
     transition: 0.5s;
     border: 1px solid #D4B98A;
     border-radius: 5%;
-    padding: 10px;
+    padding: 0.8rem;
 }
 
 .our-story a:hover{
@@ -312,8 +316,8 @@ body{
     border: thin solid rgba(212, 185, 138, 0.3);
     border-left: none;
     border-right: none;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .Numbers .div{
@@ -335,12 +339,12 @@ body{
 .menu{
     text-align: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-self: center;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .menu h3{
@@ -359,7 +363,7 @@ body{
 
 .menu a{
     color: #E8C8A0;
-    margin-top: 5vh;
+    margin-top: 5rem;
     font-family: "Cinzel", serif;
     width: fit-content;
     border-bottom: 1px solid transparent;
@@ -368,7 +372,7 @@ body{
     align-self: center;
     border: 1px solid #D4B98A;
     border-radius: 5%;
-    padding: 10px;
+    padding: 0.8rem;
 }
 
 .menu a:hover{
@@ -479,7 +483,7 @@ body{
 .reserve-section a{
     position: relative;
     color: #E8C8A0;
-    margin-top: 4%;
+    margin-top: 2%;
     font-family: "Cinzel", serif;
     width: fit-content;
     border-bottom: 1px solid transparent;
@@ -488,7 +492,7 @@ body{
     align-self: center;
     border: 1px solid #D4B98A;
     border-radius: 5%;
-    padding: 10px;
+    padding: 0.8rem;
 }
 
 .reserve-section a:hover{
@@ -511,7 +515,7 @@ body{
 
 @keyframes rotate{
     from{
-        transform: rotate(10deg);
+        transform: rotate(0deg);
     }
 
     to{
@@ -529,8 +533,9 @@ body{
     align-items: center;
     align-content: center;
     background: rgba(0, 4, 14, 1);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .footer{
@@ -542,8 +547,8 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: thin solid rgba(212, 185, 138, 0.1);
-    margin-bottom: 3%;
-    padding-bottom: 3%;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .footer-grid-items{
@@ -597,6 +602,188 @@ body{
     color: #E8C8A0;
 }
 
+/* Menu page hero styling */
 
+.menu-overlay{
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: "Cinzel", serif;
+}
 
+.menu-overlay h1{
+    font-size: 3vw;
+    font-weight: lighter;
+    color: #E8C8A0;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+}
 
+.lunch-h1{
+    display: none;
+}
+
+.menu-overlay h2{
+    font-size: 0.9vw;
+    font-weight: lighter;
+    color: #E8C8A0;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+}
+
+.menu-intro{
+    width: 100vw;
+    height: 75vh;
+    font-family: "Cinzel", serif;
+}
+
+.menu-intro .bg{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    /* The mask ensures the blur only shows at the bottom or fades in */
+    mask-image: radial-gradient(transparent, rgba(0, 0, 0, 0.7));
+    -webkit-mask-image: radial-gradient(transparent, rgba(0, 0, 0, 0.7));
+}
+
+.menu-intro-links{
+    display: flex;
+    gap: 0.5%;
+    width: 50vw;
+    justify-self: center;
+    justify-content: center;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+    margin-bottom: 5rem;
+}
+
+.menu-intro-links span{
+    border: 1px solid #D4B98A;
+    border-radius: 5%;
+    padding: 0.8rem;
+    font-size: 1vw;
+    font-weight: lighter;
+    color: #E8C8A0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu-intro-links span:hover{
+    background: #44413b;
+    color: #E8C8A0;
+    transition: 0.5s;
+}
+
+.menu-intro-links .span1{
+    background: #E8C8A0;
+    color: black;
+}
+
+.menu-intro-links .span1:hover{
+    background: #E8C8A0;
+    color: black;
+}
+
+/* Menu page body styling */
+
+.menu-content{
+    align-items: center;
+    justify-items: center;
+}
+
+.menu-content h3{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #eeebe8;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    animation: head 2s;
+    animation-timing-function: ease-in;
+    text-align: center;
+}
+
+.dinner-menu{
+    margin-top: 2rem;
+    justify-self: center;
+    justify-items: center;
+    width: 100vw;
+    background: #1f202233;
+    padding-bottom: 4rem;
+}
+
+.lunch-menu{
+    margin-top: 2rem;
+    justify-self: center;
+    justify-items: center;
+    width: 100vw;
+    background: #1f202233;
+    padding-bottom: 4rem;
+    display: none;
+}
+
+.dinner-menu-items{
+    width: 50vw;
+    border-bottom: thin solid rgba(212, 185, 138, 0.3);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.dinner-menu-items img{
+    width: 11vw;
+    border-radius: 10px;
+}
+
+.dinner-menu-items h3{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: #E8C8A0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.dinner-menu-items h2{
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    color: #cabfb2;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+}
+
+.dinner-menu-items h4{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: #eeebe8;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.dinner-menu-items h5{
+    color: #c5c3c1;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.menu-content a{
+    border: 1px solid #D4B98A;
+    border-radius: 5%;
+    padding: 0.8rem;
+    font-size: 1vw;
+    font-weight: lighter;
+    color: #E8C8A0;
+    transition: 0.5s;
+}
+
+.menu-content a:hover{
+    background: #D4B98A;
+    color: black;
+    transition: 0.5s;
+}
