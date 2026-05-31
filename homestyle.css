@@ -613,7 +613,7 @@ body{
     height: 65vh;
     position: absolute;
     top: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.1);
     color: white;
     text-align: center;
     align-content: center;
@@ -648,11 +648,11 @@ body{
 }
 
 .menu-intro .bg{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
     /* The mask ensures the blur only shows at the bottom or fades in */
-    mask-image: radial-gradient(transparent, rgba(0, 0, 0, 0.7));
-    -webkit-mask-image: radial-gradient(transparent, rgba(0, 0, 0, 0.7));
+    mask-image: radial-gradient(transparent, rgba(0, 0, 0, 0.9));
+    -webkit-mask-image: radial-gradient(transparent, rgba(0, 0, 0, 0.9));
 }
 
 .menu-intro-links{
@@ -869,3 +869,180 @@ body{
     height: 50vh;
 }
 
+/* private event menu package styling */
+
+.about-legacy .menu-package-h3{
+    font-size: 120%;
+    width: 80vw;
+    text-align: center;
+    border-bottom: none;
+}
+
+.menu-package{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+.menu-package-item{
+    border: thin solid rgba(212, 185, 138, 0.2);
+    padding: 30px;
+}
+
+.menu-package h2{
+    padding-bottom: 2rem;
+    color: #cabfb2;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.menu-package ul li{
+    color: #E8C8A0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+/* Get in touch section Private event page */
+
+.get-in-touch{
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    background: #000614;
+    padding: 30px;
+}
+
+.get-in-touch-div{
+    width: 35vw;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.get-in-touch-div span{
+    color: #E8C8A0;
+}
+
+.get-in-touch-div h3{
+    padding-bottom: 2rem;
+    color: #E8C8A0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.get-in-touch-div h1{
+    margin-bottom: 1.5rem;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 200%;
+    font-weight: lighter;
+}
+
+.get-in-touch-div p{
+    color: #eeebe8;
+    font-size: 120%;
+    line-height: 1.1;
+    font-family: "Cormorant Garamond", serif;   
+    font-weight: lighter;
+}
+
+.get-in-touch form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-right: 50px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.get-in-touch form div{
+    display: grid;
+    gap: 0.5rem;
+}
+
+.get-in-touch form div label{
+    color: #E8C8A0;
+}
+
+.get-in-touch form div input{
+    color: white;
+    padding-left: 5px;
+    background: none;
+    border: none;
+    border-bottom:thin solid rgba(212, 185, 138, 0.2) ;
+    height: 2rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.get-in-touch form div input:focus{
+    outline: none;
+    color: white;
+}
+
+.get-in-touch form .button{
+    grid-column: 1/-1;
+    height: fit-content;
+}
+
+.get-in-touch form .button button{
+    color: black;
+    font-weight: bold;
+    background: #E8C8A0;
+    font-size: 150%;
+    padding: 15px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.get-in-touch form .button button:hover{
+    background: #ccac84;
+}
+
+/* remove default placeholder for time and date input */
+
+/* Make the default text color match the background or transparent */
+input[type="date"].hidden-placeholder {
+  color: transparent;
+}
+
+/* Change the color back to normal once a valid date is picked or focused */
+input[type="date"].hidden-placeholder:focus,
+input[type="date"].hidden-placeholder:valid {
+  color: white; /* Use your preferred text color */
+}
+
+/* Make the default text color match the background or transparent */
+input[type="time"].hidden-placeholderr {
+  color: transparent;
+}
+
+/* Change the color back to normal once a valid date is picked or focused */
+input[type="time"].hidden-placeholderr:focus,
+input[type="time"].hidden-placeholderr:valid {
+  color: white; /* Use your preferred text color */
+}
+
+/* Change the white to match your input's background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #000614 inset !important;
+    box-shadow: 0 0 0 1000px #000614 inset !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    transition: background-color 5000000s ease-in-out 0s;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+}
