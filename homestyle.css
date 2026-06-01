@@ -980,6 +980,32 @@ body{
     font-size: 100%;
 }
 
+.get-in-touch form div select{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom:thin solid rgba(212, 185, 138, 0.2);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.get-in-touch form div select:focus{
+    outline: none;
+    border-color: none;
+    box-shadow: none;
+}
+
+.get-in-touch form div select option{
+    color: #E8C8A0;
+    background: #040c1a;
+    border: none;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-size: 100%;
+    outline: none;
+}
+
 .get-in-touch form div input:focus{
     outline: none;
     color: white;
@@ -1045,4 +1071,15 @@ input:-webkit-autofill:active {
 
 input:-webkit-autofill {
     -webkit-text-fill-color: white !important;
+}
+
+/* iframe styling */
+
+.iframe{
+    justify-self: center;
+    margin-top: 5rem;
+}
+
+.iframe iframe{
+    border-radius: 10px;
 }
