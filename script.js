@@ -54,6 +54,17 @@ if ('scrollRestoration' in history) {
 // Ensures the window scrolls to top on the load event
 window.scrollTo(0, 0);
 
+// burger menu
+
+const burgerButton = document.querySelector('.burger-menu');
+const burgermenu = document.querySelector(".Burger")
+const burgerdiv = document.querySelector(".Burger div")
+
+burgerButton.addEventListener('click', () => {
+  burgerButton.classList.toggle('active');
+  burgermenu.classList.toggle('active');
+  burgerdiv.classList.toggle('active');
+});
 
 // menu page lunch and dinner toggle
 

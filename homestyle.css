@@ -56,7 +56,7 @@ body{
     justify-content: center;
     top: 0;
     align-items: center;
-    z-index: 1;
+    z-index: 3;
    transition: all 0.8s ease;
    border-bottom: 1px solid transparent;
 }
@@ -105,7 +105,7 @@ body{
     opacity: 0;
  }
 
- 60%{
+ 75%{
     opacity: 0;
     margin-top: 1em;
  }
@@ -167,7 +167,7 @@ body{
     font-size: 7vw;
     font-weight: lighter;
     color: #E8C8A0;
-    animation: head 2s;
+    animation: head 2.5s;
     animation-timing-function: ease-in;
 }
 
@@ -175,7 +175,7 @@ body{
     font-size: 1.5vw;
     font-weight: lighter;
     color: #E8C8A0;
-    animation: head 2s;
+    animation: head 2.5s;
     animation-timing-function: ease-in;
     padding-bottom: 2%;
 }
@@ -186,7 +186,7 @@ body{
     width: 50vw;
     justify-self: center;
     justify-content: center;
-    animation: head 2s;
+    animation: head 2.5s;
     animation-timing-function: ease-in;
 }
 
@@ -220,6 +220,7 @@ body{
     align-content: center;
     font-weight: lighter;
     transition: 0.5s;
+    z-index: 5;
 }
 
 .fa-whatsapp:hover{
@@ -229,6 +230,101 @@ body{
     bottom: 4%;
     transition: 0.5s;
 }
+
+/* burger menu */
+
+.Burger{
+    width: 100vw;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    background: #00040e;
+    font-family: "Cormorant Garamond", serif;
+    align-content: center;
+    transition: 0.25s linear;
+    justify-self: center;
+    position: fixed;
+    transform: scale(0);
+    display: none;
+}
+
+.Burger div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Burger a{
+    margin-bottom: 3rem;
+    font-size: 150%;
+    font-family: "Cormorant Garamond", serif;
+    transition: 0.25s linear;
+}
+
+.Burger a:hover{
+    color: #E8C8A0;
+    transition: 0.25s linear;
+}
+
+.Burger .reservation{
+    color: #E8C8A0;
+    padding: 10px;
+    border: 1px solid #E8C8A0;
+}
+
+.Burger div.active{
+    animation: head 0.5s;
+    animation-timing-function:ease-in-out;
+}
+
+.Burger.active{
+    transition: 0.25s linear;
+    opacity: 100%;
+    z-index: 1;
+    width: 100vw;
+    transform: scale(1);
+    display: block;
+}
+
+/* burger menu toggle button style */
+
+.burger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    z-index: 2;
+    position: fixed;
+    right: 3%;
+    animation: head 3.2s;
+    animation-timing-function:ease-in-out;
+    display: none;
+}
+
+.burger-menu span {
+    width: 30px;
+    height: 1.5px;
+    background-color:#E8C8A0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* X Transformation */
+.burger-menu.active .line-1 {
+    transform: translateY(12px) rotate(45deg);
+}
+
+.burger-menu.active .line-2 {
+    opacity: 0;
+}
+
+.burger-menu.active .line-3 {
+    transform: translateY(-12px) rotate(-45deg);
+}
+
 
 /* scroll style */
 
@@ -1082,4 +1178,29 @@ input:-webkit-autofill {
 
 .iframe iframe{
     border-radius: 10px;
+}
+
+@media(max-width:599px){
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar .name h1{
+        display: none;
+    }
+
+    .navbar img{
+        width: 17vw;
+    }
+
+    .fa-whatsapp{
+        font-size: 200%;
+        height: 40px;
+        border-radius: 100%;
+        right: 3%;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
 }
