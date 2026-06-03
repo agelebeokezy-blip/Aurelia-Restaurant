@@ -1496,6 +1496,7 @@ input:-webkit-autofill {
         display: flex;
         flex-direction: column;
         align-items: center;
+        display: none;
     }
 
     .dinner-menu-items{
