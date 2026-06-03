@@ -1203,9 +1203,13 @@ input:-webkit-autofill {
 
     .fa-whatsapp{
         font-size: 200%;
+
         height: 40px;
         width: 40px;
-        border-radius: 100%;
+        border-radius: 50%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
         right: 3%;
     }
 
