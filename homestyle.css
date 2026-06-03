@@ -1317,9 +1317,8 @@ input:-webkit-autofill {
         flex-direction: column;
         gap: 5rem;
         width: 90vw;
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
+        justify-self: center;
+        align-self: center;
     }
 
     .chefs .chefs-grid h3{
@@ -1329,6 +1328,8 @@ input:-webkit-autofill {
     .chefs .chefs-grid .chefs-item{
         width: 90vw;
         height: 50vh;
+        justify-self: center;
+        align-self: center;
     }
 
     .chefs .chefs-grid .chefs-item img{ 
