@@ -527,8 +527,7 @@ body{
 }
 
 .chefs .chefs-grid{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
     gap: 3%;
     width: 80vw;
     justify-content: center;
@@ -1307,6 +1306,11 @@ input:-webkit-autofill {
 
     /* chefs section */
 
+    .chefs{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .chefs h1{
         margin-bottom: 3rem;
         font-size: 200%;
@@ -1317,8 +1321,8 @@ input:-webkit-autofill {
         flex-direction: column;
         gap: 5rem;
         width: 90vw;
-        justify-self: center;
-        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .chefs .chefs-grid h3{
@@ -1328,8 +1332,8 @@ input:-webkit-autofill {
     .chefs .chefs-grid .chefs-item{
         width: 90vw;
         height: 50vh;
-        justify-self: center;
-        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .chefs .chefs-grid .chefs-item img{ 
