@@ -256,7 +256,7 @@ body{
     position: fixed !important;
     justify-content: center !important;
     transform: scale(0) !important;
-    display: none !important;
+    display: none;
 }
 
 .Burger div{
