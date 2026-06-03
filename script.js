@@ -78,14 +78,14 @@ const dinnerh1 = document.querySelectorAll(".dinner-h1")
 // lunch button click function
 
 lunchbutton.addEventListener("click", () =>{
-  lunch.style.display="block"
+  lunch.style.display="flex"
   dinner.style.display="none"
   lunchbutton.style.background="#E8C8A0"
   lunchbutton.style.color="black"
   dinnerbutton.style.background="none"
   dinnerbutton.style.color="#E8C8A0"
   lunchh1.forEach((lunch1) => {
-    lunch1.style.display="block"
+    lunch1.style.display="flex"
   })
   
    dinnerh1.forEach((dinnerh1) => {
@@ -117,7 +117,7 @@ lunchbutton.addEventListener("click", () =>{
 
 dinnerbutton.addEventListener("click", () =>{
   lunch.style.display="none"
-  dinner.style.display="block"
+  dinner.style.display="flex"
   lunchbutton.style.background="none"
   lunchbutton.style.color="#E8C8A0"
   dinnerbutton.style.background="#E8C8A0"
@@ -127,7 +127,7 @@ dinnerbutton.addEventListener("click", () =>{
   })
   
    dinnerh1.forEach((dinnerh11) => {
-    dinnerh11.style.display="block"
+    dinnerh11.style.display="flex"
   })
 
   // lunch and dinner hover effects when dinner is clicked
