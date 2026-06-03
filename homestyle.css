@@ -211,6 +211,7 @@ body{
 
 .fa-whatsapp{
     position: fixed;
+    display: flex;
     bottom: 3%;
     right: 1%;
     font-size: 250%;
@@ -220,7 +221,8 @@ body{
     background: rgb(48, 139, 48);
     border-radius: 50%;
     height: 50px;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     font-weight: lighter;
     transition: 0.5s;
     z-index: 5;
