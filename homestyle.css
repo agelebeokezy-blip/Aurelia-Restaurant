@@ -62,7 +62,7 @@ body{
 }
 
 .navbar.show{
-    border-bottom: 1px solid rgba(212, 185, 138, 0.3);
+    border-bottom: 1px solid rgba(212, 185, 138, 0.3) !important;
     background: rgba(0, 4, 14, 0.5);
     backdrop-filter:  blur(100px);
     transition: all 0.8s ease;
