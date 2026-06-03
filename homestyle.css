@@ -211,20 +211,19 @@ body{
 
 .fa-whatsapp{
     position: fixed;
-    display: flex;
-    flex-direction: column;
     bottom: 3%;
     right: 1%;
     font-size: 250%;
     color: white;
     border: 1px solid rgb(48, 139, 48);
-    padding: 0rem;
+    padding: 0.2rem;
     background: rgb(48, 139, 48);
     border-radius: 50%;
     height: 50px;
-    justify-items: center;
+    width: 50px;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+    align-content: center;
     font-weight: lighter;
     transition: 0.5s;
     z-index: 5;
@@ -1205,6 +1204,7 @@ input:-webkit-autofill {
     .fa-whatsapp{
         font-size: 200%;
         height: 40px;
+        width: 40px;
         border-radius: 100%;
         right: 3%;
     }
