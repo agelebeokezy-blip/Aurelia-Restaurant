@@ -891,13 +891,6 @@ body{
     font-size: large;
 }
 
-.menu-content .menu-h3-btm{
-    color: green;
-    justify-self: center;
-    text-align: center;
-    width: 90vw;
-}
-
 .menu-content a{
     border: 1px solid #D4B98A;
     border-radius: 5%;
@@ -1479,6 +1472,8 @@ input:-webkit-autofill {
     /* Menu page body styling */
 
     .menu-content{
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-items: center;
     }
@@ -1537,6 +1532,10 @@ input:-webkit-autofill {
     .menu-content a{
         font-size: 3vw;
         padding: 8px;
+    }
+
+    .menu-content .menu-h3-btm{
+        width: 90vw;
     }
 
     /* About us page styling */
