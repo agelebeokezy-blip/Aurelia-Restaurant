@@ -1483,6 +1483,12 @@ input:-webkit-autofill {
     .menu-h3-btm{
         width: 90vw;
     }
+    
+    .dinner-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .dinner-menu-items{
         width: 90vw;
