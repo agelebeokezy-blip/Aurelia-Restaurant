@@ -241,20 +241,20 @@ body{
 
 .Burger{
     display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
+    flex-direction: column ;
+    align-items: center ;
     width: 100vw ;
-    height: 100vh !important; /* Fallback */
-    height: 100svh !important;
+    height: 100vh ; /* Fallback */
+    height: 100svh ;
     opacity: 0 ;
-    top: 0 !important;
-    background: #00040e !important;
-    font-family: "Cormorant Garamond", serif !important;
-    align-content: center !important;
-    transition: 0.25s linear !important;
-    justify-self: center !important;
-    position: fixed !important;
-    justify-content: center !important;
+    top: 0 ;
+    background: #00040e ;
+    font-family: "Cormorant Garamond", serif ;
+    align-content: center ;
+    transition: 0.25s linear ;
+    justify-self: center ;
+    position: fixed ;
+    justify-content: center ;
     transform: scale(0);
     display: none;
 }
