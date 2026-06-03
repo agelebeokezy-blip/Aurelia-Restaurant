@@ -826,6 +826,9 @@ body{
     animation-timing-function: ease-in;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
 }
 
 .dinner-menu{
