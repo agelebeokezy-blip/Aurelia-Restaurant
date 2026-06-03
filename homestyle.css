@@ -1206,11 +1206,11 @@ input:-webkit-autofill {
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+        justify-items: center !important;
         right: 3%;
     }
 
