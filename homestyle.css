@@ -1317,6 +1317,9 @@ input:-webkit-autofill {
         flex-direction: column;
         gap: 5rem;
         width: 90vw;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .chefs .chefs-grid h3{
