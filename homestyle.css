@@ -907,6 +907,11 @@ body{
     transition: 0.5s;
 }
 
+.menu-h3-btm{
+    text-align: center;
+    justify-self: center;
+}
+
 /* About us page styling */
 
 .about-our-story{
