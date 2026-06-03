@@ -240,12 +240,12 @@ body{
 /* burger menu */
 
 .Burger{
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
     align-items: center !important;
-    width: 100vw !important;
-    height: 100vh !important; /* Fallback */
-    height: 100svh !important;
+    width: 100vw ;
+    height: 100% ; /* Fallback */
+    height: 100% ;
     opacity: 0 ;
     top: 0 !important;
     background: #00040e !important;
