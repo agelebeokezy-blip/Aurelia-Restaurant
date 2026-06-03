@@ -716,6 +716,10 @@ body{
 /* Menu page hero styling */
 
 .menu-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 65vh;
     height: 65dvh;
