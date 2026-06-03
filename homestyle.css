@@ -254,6 +254,7 @@ body{
     transition: 0.25s linear;
     justify-self: center;
     position: fixed;
+    justify-content: center;
     transform: scale(0);
     display: none;
 }
