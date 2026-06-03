@@ -1181,6 +1181,9 @@ input:-webkit-autofill {
 }
 
 @media(max-width:599px){
+
+    /* navbar and homepage overlay styling */
+
     .navbar ul{
         display: none;
     }
@@ -1202,5 +1205,370 @@ input:-webkit-autofill {
 
     .burger-menu {
         display: flex;
+    }
+
+    .overlay h1{
+        font-size: 12vw;
+    }
+
+    .overlay h2{
+        font-size: 6vw;
+    }
+
+    .intro-links a{
+        font-size: 3vw;
+        padding: 8px;
+    }
+
+    .intro-links{
+        width: 100vw;
+    }
+
+    /* homepage our story styling */
+
+    .our-story{
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+    }
+
+    .our-story div{
+        width: 90vw;
+    }
+
+    .our-story h1{
+        font-size: 200%;
+    }
+
+    .our-story a{
+        font-size: 3vw;
+        padding: 8px;
+        margin-top: 1rem;
+    }
+
+    .our-story p{
+        font-size: 120%;
+    }
+
+    /* Numbers section */
+
+    .Numbers{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .Numbers h1{
+        font-size: 150%;
+    }
+
+    .Numbers p{
+       font-size: 80%;
+    }
+
+    /* menu/ image styling */
+
+    .menu{
+        align-items: center;
+    }
+
+    .menu h3{
+        margin-bottom: 1.5rem;
+        width: 80vw;
+    }
+
+    .menu h1{
+        margin-bottom: 1rem;
+        font-size: 200%;
+    }
+
+    .menu a{
+        margin-top: 3rem;
+        font-size: 3vw;
+        padding: 8px;
+    }
+
+    .menu .grid{
+        width: 90vw;
+        display: grid;
+        grid-template-columns: repeat(2, 44vw);
+        gap: 1rem;
+    }
+
+    .menu .grid .grid-item{
+        height: 25vh;
+    }
+
+    /* chefs section */
+
+    .chefs h1{
+        margin-bottom: 3rem;
+        font-size: 200%;
+    }
+
+    .chefs .chefs-grid{
+        display: grid;
+        width: 90vw;
+        grid-template-columns: repeat(1, 90vw);
+        gap: 5rem;
+        justify-items: center;
+    }
+
+    .chefs .chefs-grid h3{
+        margin-top: 3%;
+    }
+
+    .chefs .chefs-grid .chefs-item{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .chefs .chefs-grid .chefs-item img{ 
+        border-radius: 5%; 
+    }
+
+    /* Homepage reserve section */
+
+    .reserve-section{
+        flex-direction: column;
+        margin-bottom: 5rem;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .reserve-section img{
+        width: 15vw;
+    }
+
+    .reserve-section p{
+        font-size: 100%;
+    }
+
+    .reserve-section a{
+        font-size: 3vw;
+        padding: 8px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    /* footer styling */
+
+    .footer-box{
+        width: 100vw;
+        height: fit-content;
+        transition: all 0.8s ease;
+        border-top: thin solid rgba(212, 185, 138, 0.3);
+        align-items: center;
+        align-content: center;
+        background: rgba(0, 4, 14, 1);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .footer{
+        width: 100vw;
+        justify-self: center;
+        padding-left: 2rem;
+    }
+
+    .footer-grid{
+        flex-direction: column;
+        padding-bottom: 1rem;
+        gap: 2rem;
+    }
+
+    .footer-grid-items{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 1rem;
+    }
+
+    .footer-grid-items img{
+        width:20vw;
+    }
+
+    .footer-grid-items ul li{
+        margin-bottom: 1rem;
+        color: #eeebe8;
+    }
+
+    .footer-bottom{
+        display: grid;
+        gap: 1rem;
+    }
+
+    .footer-socials i{
+        font-size: 100%;
+    }
+
+    .footer h3{
+        font-size: 100%;
+        font-weight: lighter;
+    }
+
+    /* Menu page hero styling */
+
+    .menu-overlay{
+        height: 55vh;
+    }
+
+    .menu-overlay h1{
+        font-size: 7vw;
+    }
+
+    .menu-overlay h2{
+        font-size: 2.8vw;
+    }
+
+    .menu-intro{
+        height: 55vh;
+    }
+
+    .menu-intro-links{
+       width: 100vw;
+    }
+
+    .menu-intro-links span{
+        font-size: 3vw;
+        padding: 8px;
+    }
+
+    /* Menu page body styling */
+
+    .menu-content{
+        align-items: center;
+        justify-items: center;
+    }
+
+    .menu-content h3{
+        font-size: 120%;
+    }
+
+    .menu-h3-btm{
+        width: 90vw;
+    }
+
+    .dinner-menu-items{
+        width: 90vw;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .dinner-menu-items img{
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .dinner-menu-items h3{
+       font-size: 4vw;
+    }
+
+    .dinner-menu-items h2{
+       font-size: 4vw;
+    }
+
+    .dinner-menu-items h4{
+        font-size: 4vw;
+    }
+
+    .dinner-menu-items h5{
+        font-size: 4vw;
+    }
+
+    .menu-content a{
+        font-size: 3vw;
+        padding: 8px;
+    }
+
+    /* About us page styling */
+
+    .about-our-story{
+        padding-left: 0;
+        margin-top: 10rem;
+        width: 90vw;
+        justify-self: center;
+    }
+
+    .about-our-story h3{
+        margin-top: 0rem;
+    }
+
+    .about-our-story h1{
+        font-size: 200%;
+    }
+
+    .about-our-story p{
+        font-size: 120%;
+        width: 90vw;
+    }
+
+    .about-legacy .about-h1{ 
+        font-size: 200%;
+    }
+
+    .about-legacy .about-h3{
+        text-align: center;
+        width: 90vw;
+        border-bottom: none;
+    }
+
+    /* private event menu package styling */
+
+    .about-legacy .menu-package-h3{
+        font-size: 120%;
+        width: 80vw;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .menu-package{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .menu-package-item{
+        width: 80vw;
+        border: 2px solid rgba(212, 185, 138, 0.5);
+    }
+
+    /* Get in touch section Private event page */
+
+    .get-in-touch{
+        gap: 5rem;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .get-in-touch-div{
+        width: 90vw;
+    }
+
+    .get-in-touch form{
+        padding-right: 0px;
+    }
+
+    .get-in-touch form div{
+        display: grid;
+        gap: 1.5rem;
+    }
+
+    /* iframe styling */
+
+    .iframe{
+        justify-self: center;
+        margin-top: 5rem;
+        width: 90vw;
+    }
+
+    .iframe iframe{
+        border-radius: 10px;
+        width: 90vw;
     }
 }
