@@ -815,8 +815,6 @@ body{
 }
 
 .menu-content h3{
-    display: flex;
-    flex-direction: column;
     padding-top: 4rem;
     padding-bottom: 4rem;
     color: #eeebe8;
@@ -825,10 +823,6 @@ body{
     animation: head 2s;
     animation-timing-function: ease-in;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    justify-self: center;
 }
 
 .dinner-menu{
@@ -895,6 +889,12 @@ body{
     font-family: "Cormorant Garamond", serif;
     font-weight: lighter;
     font-size: large;
+}
+
+.menu-content .menu-h3-btm{
+    color: green;
+    justify-self: center;
+    text-align: center;
 }
 
 .menu-content a{
