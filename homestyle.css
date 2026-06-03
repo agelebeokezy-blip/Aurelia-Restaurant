@@ -895,6 +895,7 @@ body{
     color: green;
     justify-self: center;
     text-align: center;
+    width: 90vw;
 }
 
 .menu-content a{
