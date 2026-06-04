@@ -985,6 +985,18 @@ body{
     overflow: hidden;
 }
 
+.review::before {
+    content: '';
+    position: fixed; /* Simulates fixed attachment safely */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(images/arrangement-thanksgiving-day-delicious-dinner.jpg);
+    background-position: center; /* Centers perfectly across all versions */
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .review-overlay{
     background: rgba(0, 0, 0, 0.5);
     height: 50vh;
