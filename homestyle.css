@@ -832,6 +832,9 @@ body{
     width: 100vw;
     background: #1f202233;
     padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lunch-menu{
@@ -841,7 +844,9 @@ body{
     width: 100vw;
     background: #1f202233;
     padding-bottom: 4rem;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dinner-menu-items{
@@ -1365,6 +1370,7 @@ input:-webkit-autofill {
 
     .reserve-section{
         flex-direction: column;
+        align-items: center;
         margin-bottom: 5rem;
         align-items: center;
         width: 90vw;
