@@ -1374,6 +1374,8 @@ input:-webkit-autofill {
         margin-bottom: 5rem;
         align-items: center;
         width: 90vw;
+        align-self: center;
+        justify-self: center;
     }
 
     .reserve-section img{
