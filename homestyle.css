@@ -978,7 +978,8 @@ body{
     background-image: url(images/arrangement-thanksgiving-day-delicious-dinner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    -webkit-background-size: cover;
+    background-position: center center;
     margin-top: 5rem;
     background-attachment: fixed;
     position: relative;
