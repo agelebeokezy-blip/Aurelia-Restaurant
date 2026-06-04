@@ -982,6 +982,7 @@ body{
     background-position: center center;
     margin-top: 5rem;
     background-attachment: fixed;
+    -webkit-background-attachment:fixed;
     position: relative;
     overflow: hidden;
 }
