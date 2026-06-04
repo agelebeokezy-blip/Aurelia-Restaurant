@@ -571,6 +571,7 @@ body{
     border-left: none;
     border-right: none;
     margin-bottom: 10rem;
+    justify-self: center;
 }
 
 .reserve-section .flex-item{
@@ -1373,9 +1374,9 @@ input:-webkit-autofill {
         align-items: center;
         margin-bottom: 5rem;
         width: 90vw;
-        align-self: center;
-        justify-self: center;
         align-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .reserve-section img{
