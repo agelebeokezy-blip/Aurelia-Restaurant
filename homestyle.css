@@ -127,6 +127,14 @@ body{
     transition: 0.5s;
 }
 
+.navbar .default{
+    color: black;
+    transition: 0.5s;
+    border-radius: 5%;
+    padding: 0.7vw;
+    background: #D4B98A;
+}
+
 .navbar ul li a:hover{
     color: black;
     transition: 0.5s;
@@ -271,6 +279,10 @@ body{
     font-size: 150%;
     font-family: "Cormorant Garamond", serif;
     transition: 0.25s linear;
+}
+
+.Burger .mobile-active{
+    color: #E8C8A0;
 }
 
 .Burger a:hover{
